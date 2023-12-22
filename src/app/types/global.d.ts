@@ -10,8 +10,8 @@ declare module '*.png';
 declare module '*.jpg';
 declare module '*.jpeg';
 declare module '*.svg' {
-    const svg: React.FunctionComponent<React.SVGAttributes<SVGAElement>>;
-    export default svg;
+    const content: string;
+    export default content;
 }
 
-declare const IS_DEV_MODE: boolean
+declare const IS_DEV_MODE: boolean;
