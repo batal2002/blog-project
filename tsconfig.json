@@ -1,7 +1,10 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "outDir": "./dist/",
+    "baseUrl": "./",
+    "paths": {
+      "*": ["./src/*"]
+    },
+    "outDir": "./build/",
     //Подсвечивает где не указан тип
     "noImplicitAny": true,
     "module": "ESNext",
